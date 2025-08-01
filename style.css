@@ -1,11 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Galindo&family=Marcellus&family=Pacifico&family=Rouge+Script&display=swap');
+
+
+*{
+  padding: 0;
+  margin: 0;
+}
+
 body{
-margin: 0;
-padding: 0;
   background-image:url(assets/back.jpg);
   background-size: cover;
   background-position:bottom;
   background-repeat: no-repeat;
   background-attachment:fixed;
+  height: 1000px;
+  font-family: Marcellus, sans-serif;
 }
 
 span{
@@ -47,22 +55,118 @@ a{
   text-decoration: none;
   color: inherit;
 }
-.quote {
+.content{
+  background: rgba(0, 0, 0, 0.3);
+  height: 500px;
+}
+.quote{
+  font-weight: 30; /* You can set any value between 400 to 700 */
+  padding-top: 150px;
+  padding-left: 26%;
+  font-size: 55px;
+  text-shadow: 50px;
+  color: white;
+}
+.parag{
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+  color: white;
+  padding-top: 25px;
+  padding-left: 15%;
+  font-size: 50px;
+}
+.second-part{
+  height: 700px;
+  background-color: white;
+}
+.hot{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 50px;
+  padding-top: 65px;
+}
+.linebreak{
+padding-left: 530px;
+padding-top: 10px;
+}
+.drink-menu-1 ul{
+  float: left;
+  display: flex;
+  flex-direction: column;
+  gap: 35px;
+  margin-top: 50px;
+  width: 42%;
+  list-style-type: none;
+  padding-left: 150px;
+  text-decoration: none;
+}
+.drink-menu-2 ul{
+ float: left;
+ display: flex;
+ flex-direction: column;
+ gap: 35px;
+ list-style-type: none;
+ margin-top: 50px;
+ width: 45%;
+ margin-left: 10px;
+}
+.third-part{
+  height: 700px;
+  background-color: #f2e8de;
+}
+.last-part{
+  background-color: #14120e;
+  height: 500px;
+}
+#map{
+  width: 50%;
+  float: left;
+  height: 500px;
+}
+.mail-side{
   float: left;
   width: 50%;
-  height: 462px;
-  padding-top: 250px;
-  color: white;
-  font-size: 50px;
-  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.8);
-  padding-left: 40px;
-  background-color: rgba(0, 0, 0, 0.3) /* semi-transparent */
 }
-.pl{
-  width: 46%;
-  background-color: rgba(0, 0, 0, 0.4);
-  float: left;
+
+
+form {
+  max-width: 593px;
+  margin: auto;
+  background: #f2f2f2;
+  padding: 20px;
+  height: 460px;
+}
+label {
+  display: block;
+  margin-top: 15px;
+}
+input[type="text"],
+input[type="tel"],
+input[type="email"] {
+  width: 100%;
+  padding: 8px;
+  margin-top: 5px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+input[type="submit"] {
+  margin-top: 10px;
+  padding: 10px 50px;
+  background-color: #4CAF50;
   color: white;
-  font-size: 50px;
-  padding-top: 100px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-left: 40px;
+ 
+}
+input[type="submit"]:hover {
+  background-color: #45a049;
+}
+textarea {
+  resize: vertical;
+  min-height: 100px;
+  width: 300px;
 }
